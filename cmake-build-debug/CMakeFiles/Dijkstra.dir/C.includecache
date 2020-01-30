@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/twiggy/CLion/Dijkstra/graph.h
+stdio.h
+-
+stdlib.h
+-
+limits.h
+-
+queue.h
+/Users/twiggy/CLion/Dijkstra/queue.h
+
+/Users/twiggy/CLion/Dijkstra/main.c
+graph.h
+/Users/twiggy/CLion/Dijkstra/graph.h
+
+/Users/twiggy/CLion/Dijkstra/queue.h
+graph.h
+/Users/twiggy/CLion/Dijkstra/graph.h
+
